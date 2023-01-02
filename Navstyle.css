@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* *************************** Navbar ****************************************** */
+
+.uv_padding{
+    padding: 0px 13.75rem;
+    list-style: none;
+    text-decoration: none;
+}
+.uv_padding_2{
+    padding: 0px 6.87rem;
+    list-style: none;
+    text-decoration: none;
+}
+.first_navbar{
+    color: white;
+    width: 95.95rem;
+    height:3.13rem;
+    background-color: rgb(227,24,55);
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.745);
+
+}
+.nav_logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_logo a{
+    text-decoration: none;
+    color: white;
+}
+.email_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email_logo p{
+    margin: 0;
+}
+.fa-brands, .fa-regular{
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.fa-regular{
+    color: rgb(240,148,52);
+}
+.fa-brands:hover{
+  color: brown;
+}
+.fa-regular:hover{
+    color: brown;
+}
+.navbar_menu a{
+    text-decoration: none;
+    color: black;
+}
+.second_navbar{
+    width: 95.95rem;
+    height: 4.93rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 250, 251);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.second_navbar_log{
+    box-shadow: rgb(0 0 0 / 40%) 0px 2px 4px, rgb(0 0 0 / 30%) 0px 7px 13px -3px, rgb(0 0 0 / 20%) 0px -3px 0px inset;
+    width:13.87rem;
+    height: 3.43rem;
+    border-radius: 0.62rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.second_navbar_log p{
+    margin: 0;
+    font-size: 1rem;
+    /* font-family: 'Kaushan Script', cursive; */
+    color: rgba(0, 0, 0, 0.819);
+}
+.navbar_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.navbar_menu a{
+    padding: 0px 1.56rem;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+}
+
+.navbar_menu span{
+    padding: 0px 0px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: rgb(0, 0, 0);
+    height: 2.25rem;
+    width: 9.37rem;
+    text-align: center;
+    border-radius: 0.37rem;
+    align-items: unset;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.navbar_menu a:hover{
+    color: brown;
+}
+.second_navbar_log p:hover{
+   color: rgb(0, 0, 0);
+
+}
+#hamburger{
+    display: none;
+}
+
+
+.fa-facebook-f:hover{
+  color:#3B5998;
+}.fa-whatsapp:hover{
+  color: #25D366;
+}.fa-instagram:hover{
+  color:#2C6A93;
+}.fa-twitter:hover{
+  color:#00B6F1;
+}.fa-youtube:hover{
+  color:#FF0000;
+}.fa-envelope:hover{
+  color:#DC622C;
+}
+
+.logo_bars{
+  padding: 0.7rem 0rem;
+  font-size:1.3rem;
+}
+.logo_bars p{
+  margin: 0;
+  color: tomato;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+  

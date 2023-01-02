@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 26.25em) {
+    body,html{
+        width: 25.87rem;
+    }
+    .first_navbar{
+        color: white;
+        width: 25.87rem;
+        height: 6.5rem;
+        background-color: rgb(227,24,55);
+        list-style: none;
+        border-bottom: 0.1px solid rgba(255, 255, 255, 0.745);
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        border: none;
+    }
+    .Navbar{
+        width:25.87rem ;
+    }
+    .fa-brands,.fa-regular,.fa-solid{
+        font-size: 1.81rem;
+        padding: 0rem 1rem;
+    }
+    #hamburger{
+        display: block;
+      }
+    .fa-regular{
+        font-size: 1.81rem;
+    }
+    .nav_logo{
+        margin-top: 1.12rem;
+        padding: 0rem 0.3rem;
+        display: flex;
+        justify-content: center;
+    }
+    .second_navbar{
+        width: 25.87rem;
+        height: 0rem;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second_navbar_log{
+        box-shadow: rgb(0 0 0 / 40%) 0px 2px 4px, rgb(0 0 0 / 30%) 0px 7px 13px -3px, rgb(0 0 0 / 20%) 0px -3px 0px inset;
+        width: 23rem;
+        height: 4.43rem;
+        border-radius: 0.62rem;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-top: 0.7rem;
+
+    }
+    .navbar_menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar_menu a{
+        padding: 1.5rem 0rem;
+        font-size: 2rem;
+        color: white;
+    }
+    .navbar_menu span {
+        margin-bottom: 1rem;
+        font-weight: 500;
+        font-size: 1.125rem;
+        color: white;
+        width: 15.37rem;
+        height: 4rem;
+        text-align: center;
+        border-radius: 0.37rem;
+        align-items: unset;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+        box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    }
+    .navbar_menu span li{
+        padding-left: 39px;
+    }
+    .second_navbar_log p {
+        margin: 0;
+        font-family: 'Kaushan Script', cursive;
+        color: rgba(255, 255, 255, 0.819);
+    }
+    .main_nav_bar{
+        display: none;
+    }
+    .logo_bars{
+        width: 25.87rem;
+        margin-top: 5.2rem;
+    }
+    .email_logo{
+        margin-bottom: 5px;
+    }
+    .main_nav_bar{
+        display: block;
+        background-color: rgb(227, 24, 55);
+        width: 25.87rem;
+        margin-top: 19px;
+    }
+    .main_nav_bar{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
